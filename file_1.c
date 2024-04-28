@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	printf("Executing a Linux shell command using C program.\n");
+	printf("Listing files in current directory:\n");
+	system("ls");
+	return 0;
+}
