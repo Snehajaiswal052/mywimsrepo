@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-int main(){
-	printf("Executing a Linux shell command using C program.\n");
-	printf("This line is newly added:\n");
-	system("ls");
-	return 0;
+int main() {
+int no1, no2, sum;
+printf("enter 2 integers");
+scanf("%d %d" &no1, &no2);
+sum = no1 + no2 ;
+printf(" %d + %d = %d " no1 , no2, sum);
+return 0;
 }
