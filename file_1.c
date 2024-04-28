@@ -6,3 +6,8 @@ sum = no1 + no2 ;
 printf(" %d + %d = %d " no1 , no2, sum);
 return 0;
 }
+int addfunc(int a, int b)
+{
+	return a+b;
+	return c;
+}
