@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main(){
 	printf("Executing a Linux shell command using C program.\n");
-	printf("Listing files in current directory:\n");
+	printf("This line is newly added:\n");
 	system("ls");
 	return 0;
 }
